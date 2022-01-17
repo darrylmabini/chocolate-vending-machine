@@ -1,0 +1,23 @@
+{
+  "name": "chocovend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darrylmabini/chocolate-vending-machine.git"
+  },
+  "author": "darryl.mabini@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darrylmabini/chocolate-vending-machine/issues"
+  },
+  "homepage": "https://github.com/darrylmabini/chocolate-vending-machine#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
