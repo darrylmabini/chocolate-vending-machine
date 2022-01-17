@@ -8,15 +8,26 @@ describe('infrastructure/persistence', () => {
   });
 
   it('should update product', async () => {
-    const product = await inMemoryProductRepository.update(1, { id: 1, name: 'test', quantity: 0 });
+    const product = await inMemoryProductRepository.update(1, {
+      id: 1,
+      name: 'test',
+      quantity: 0,
+      image: '/images/test.png',
+    });
     expect(product.id).toEqual(1);
     expect(product.name).toEqual('test');
     expect(product.quantity).toEqual(0);
+    expect(product.image).toEqual('/images/test.png');
   });
 
   it('should throw RecordNotFoundException', async () => {
     try {
-      await inMemoryProductRepository.update(100, { id: 100, name: 'test', quantity: 0 });
+      await inMemoryProductRepository.update(100, {
+        id: 100,
+        name: 'test',
+        quantity: 0,
+        image: '/images/test.png',
+      });
     } catch (error) {
       expect(error instanceof RecordNotFoundException).toBeTruthy();
     }

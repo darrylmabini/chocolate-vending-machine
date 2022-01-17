@@ -7,9 +7,9 @@ class InMemoryProductRepository implements ProductRepository {
 
   constructor(products?: Product[]) {
     this.products = products || [
-      new Product(1, 'Caramel', 5),
-      new Product(2, 'Hazelnut', 3),
-      new Product(3, 'Organic Raw', 1),
+      new Product(1, 'Caramel', 5, '/images/caramel.png'),
+      new Product(2, 'Hazelnut', 3, '/images/hazelnut.png'),
+      new Product(3, 'Organic Raw', 1, '/images/organic.png'),
     ];
   }
 

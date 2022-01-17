@@ -7,6 +7,7 @@ const server = express();
 
 server.use(bodyParser.json());
 server.use(corsMiddleware);
+server.use('/images', express.static('public'));
 server.use('/api', apiRouter);
 server.use(errorMiddleware);
 
