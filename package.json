@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "dev:all": "lerna run --parallel dev",
+    "build:all": "lerna run --parallel build",
+    "start:all": "lerna run --parallel start"
   },
   "repository": {
     "type": "git",
