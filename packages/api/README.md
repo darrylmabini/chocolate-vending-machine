@@ -2,8 +2,7 @@
 
 ## Prerequisite
 
-1. Node version `v12.0+`.
-2. Port 3000 availability.
+Port 4000 availability. If not available please modify `APP_PORT` in `.env`.
 
 ## Requirments
 
@@ -11,6 +10,12 @@
 ![Yarn Version](https://img.shields.io/badge/Yarn-%3D%3E%20v1.22.10-blue)
 
 ## Getting Started
+
+### .env file
+
+```console
+cp .env.default .env
+```
 
 ### Install dependencies
 
