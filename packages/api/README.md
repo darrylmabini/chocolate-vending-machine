@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-Port 4000 availability. If not available please modify `APP_PORT` in `.env`.
+Port `4000` availability. If not available please modify `APP_PORT` in `.env`.
 
 ## Requirments
 
@@ -88,3 +88,7 @@ src/
 <p align="center">
   <img src="./public/architechture-diagram.png" />
 </p>
+
+## Future Improvements
+
+Use [Swagger](https://swagger.io/) for better API documentation
