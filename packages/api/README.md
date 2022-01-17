@@ -1,4 +1,4 @@
-# Chocolate Vending Machine
+# Chocolate Vending Machine API
 
 ## Prerequisite
 
