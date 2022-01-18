@@ -1,4 +1,4 @@
-# Chocolate Vending Machine
+# ChocoVendy
 
 ## Requirments
 
