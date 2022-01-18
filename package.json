@@ -2,18 +2,11 @@
   "name": "chocovend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "clean": "lerna clean --yes && rimraf node_modules",
     "commit": "npx git-cz",
-    "dev:all": "lerna run --parallel dev",
-    "build:all": "lerna run --parallel build",
-    "start:all": "lerna run --parallel start",
-    "test:all": "lerna run --parallel test"
+    "start:all": "concurrently \"cd packages/api && yarn install && yarn start\" \"cd packages/vending-machine && yarn install && yarn start\"",
+    "test:all": "concurrently \"cd packages/api && yarn install && yarn test\" \"cd packages/vending-machine && yarn install && yarn test\"",
+    "lint:all": "concurrently \"cd packages/api && yarn install && yarn lint\" \"cd packages/vending-machine && yarn install && yarn lint\""
   },
   "repository": {
     "type": "git",
@@ -26,9 +19,7 @@
   },
   "homepage": "https://github.com/darrylmabini/chocolate-vending-machine#readme",
   "devDependencies": {
-    "cross-env": "^7.0.3",
-    "lerna": "^4.0.0",
-    "prettier": "^2.5.1",
-    "rimraf": "^3.0.2"
+    "concurrently": "^7.0.0",
+    "prettier": "^2.5.1"
   }
 }
