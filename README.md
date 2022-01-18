@@ -13,6 +13,11 @@ Open your terminal and start the app. You might need to reload the page if the A
 yarn start:all
 ```
 
+## Docs
+
+- [API](packages/api)
+- [Client](packages/api)
+
 ## Demo
 
 <p align="center">
