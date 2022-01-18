@@ -1,6 +1,9 @@
 import React from 'react';
 import useChocovendWebServices from 'hooks/useChocovendWebServices';
 
+/**
+ * Vending machine business logic
+ */
 export const VendingMachineContext = React.createContext({
   items: [],
   change: 0,
@@ -77,7 +80,7 @@ export const VendingMachineProvider = ({ children }) => {
   }
 
   function formatMoney(amount) {
-    return amount === 0 ? amount : amount < 1 ? `${amount}c` : `$${amount}`;
+    return amount === 0 ? amount : amount < 1 ? `${amount.toFixed(2)}c` : `$${amount.toFixed(2)}`;
   }
 
   return (

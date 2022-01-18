@@ -35,6 +35,7 @@ export const Loader = ({ loadingText, color }) => {
 
 Loader.defaultProps = {
   loadingText: null,
+  color: null,
 };
 
 Loader.propTypes = {

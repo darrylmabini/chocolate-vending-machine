@@ -1,5 +1,5 @@
 {
-  "name": "vending-machine",
+  "name": "@chocovend/vending-machine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,13 +11,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "react-styleguidist": "^11.1.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
+    "lint": "echo \"npx eslint ./src\"",
     "styleguide": "styleguidist server"
   },
   "eslintConfig": {
@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "node-sass": "^7.0.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "react-styleguidist": "^11.1.8"
   }
 }

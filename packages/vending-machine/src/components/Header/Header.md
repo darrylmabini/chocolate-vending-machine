@@ -4,5 +4,5 @@ Header example:
 import React from 'react';
 import { Header } from 'components/Header';
 
-<Header />;
+<Header balance="0" />;
 ```

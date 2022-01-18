@@ -13,4 +13,5 @@ export const Header = ({ logo, balance }) => (
 
 Header.defaultProps = {
   balance: '0',
+  logo: null,
 };
