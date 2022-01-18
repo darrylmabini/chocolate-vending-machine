@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-height: 50px;
+  max-width: 100%;
+  display: block;
+}
+
+.title {
+  float: left;
+  margin-left: 7px;
+  font-size: 1.4rem;
+}

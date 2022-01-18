@@ -1,0 +1,39 @@
+.menu {
+  background: #472471;
+  box-shadow: 0px 1px 2px 0px #091e4240;
+  position: absolute;
+  display: flex;
+  width: 500px;
+  bottom: 0;
+}
+
+.actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.money-selection {
+  background-color: #d58f00;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+  font-weight: 700;
+}
+
+.money-selection-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+
+  button {
+    flex-grow: 1;
+    margin: 5px;
+    text-transform: lowercase;
+  }
+}
