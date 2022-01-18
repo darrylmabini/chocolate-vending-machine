@@ -12,11 +12,13 @@ describe('infrastructure/persistence', () => {
       id: 1,
       name: 'test',
       quantity: 0,
+      price: 3.1,
       image: '/images/test.png',
     });
     expect(product.id).toEqual(1);
     expect(product.name).toEqual('test');
     expect(product.quantity).toEqual(0);
+    expect(product.price).toEqual(3.1);
     expect(product.image).toEqual('/images/test.png');
   });
 
@@ -26,6 +28,7 @@ describe('infrastructure/persistence', () => {
         id: 100,
         name: 'test',
         quantity: 0,
+        price: 3.1,
         image: '/images/test.png',
       });
     } catch (error) {
