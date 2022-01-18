@@ -91,4 +91,5 @@ src/
 
 ## Future Improvements
 
-Use [Swagger](https://swagger.io/) for better API documentation
+- Add logger
+- Use [Swagger](https://swagger.io/) for better API documentation
