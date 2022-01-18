@@ -16,15 +16,13 @@ yarn start:all
 ## Demo
 
 <p align="center">
-    <video width="90%" controls>
-        <source src="./demo/chocolate-vending-machine-demo.mov" type="video/mov">
-        Your browser does not support HTML video.
-    </video>
+    <img src="./demo/demo-1.gif" alt="Demo 1" width="80%" />
+    <img src="./demo/demo-2.gif" alt="Demo 2" width="80%" />
 </p>
 
 ## Screenshots
 
 <p align="center">
-    <img src="./packages/vending-machine/public/screenshot-1.png" alt="Screenshot 1" />
-    <img src="./packages/vending-machine/public/screenshot-2.png" alt="Screenshot 2" />
+    <img src="./packages/vending-machine/public/screenshot-1.png" alt="Screenshot 1" width="40%" />
+    <img src="./packages/vending-machine/public/screenshot-2.png" alt="Screenshot 2" width="40%" />
 </p>
