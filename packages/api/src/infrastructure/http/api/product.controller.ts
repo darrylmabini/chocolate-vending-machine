@@ -17,7 +17,7 @@ export class ProductController {
       const id = +request.params?.id;
       const product = request.body;
 
-      response.status(200).json(await inMemoryProductRepository.update(id, product));
+      sendResponse(response, await inMemoryProductRepository.update(id, product));
     } catch (error) {
       sendError(next, error);
     }
