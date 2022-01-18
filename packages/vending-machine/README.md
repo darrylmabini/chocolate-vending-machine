@@ -55,8 +55,6 @@ src/
 ## Screenshots
 
 <p align="center">
-    <img src="./public/screenshot-1.png" alt="Screenshot 1" height="500" />
-    <img src="./public/screenshot-2.png" alt="Screenshot 2" height="300" />
-    <img src="./public/screenshot-3.png" alt="Screenshot 3" height="300"/>
-    <img src="./public/screenshot-4.png" alt="Screenshot 4" height="350"/>
+    <img src="./public/screenshot-1.png" alt="Screenshot 1" />
+    <img src="./public/screenshot-2.png" alt="Screenshot 2" />
 </p>
