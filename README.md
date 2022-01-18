@@ -16,8 +16,8 @@ yarn start:all
 ## Demo
 
 <p align="center">
-    <img src="./demo/demo-1.gif" alt="Demo 1" width="80%" />
-    <img src="./demo/demo-2.gif" alt="Demo 2" width="80%" />
+    <img src="./demo/demo-1.gif" alt="Demo 1" width="40%" />
+    <img src="./demo/demo-2.gif" alt="Demo 2" width="40%" />
 </p>
 
 ## Screenshots
