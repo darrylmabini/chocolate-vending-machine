@@ -1,4 +1,5 @@
 import React from 'react';
+import useConfig from 'hooks/useConfig';
 import useVendingMachine from 'hooks/useVendingMachine';
 import { Button } from 'components/Button';
 import { Card, CardHeader, CardBody, CardFooter } from 'components/Card';
@@ -8,6 +9,7 @@ import Styles from './Item.module.scss';
  * Component for rendering the item.
  */
 export const Item = ({ item, dispensed }) => {
+  const { CHOCOVEND_API_URL } = useConfig();
   const { balance, isAvailable, formatMoney, createTransaction, clearItem } = useVendingMachine();
   const [isItemAvailable, setIsItemAvailable] = React.useState(false);
 
@@ -31,7 +33,7 @@ export const Item = ({ item, dispensed }) => {
         <CardBody>
           <img
             className={item.quantity === 0 ? Styles.soldout : ''}
-            src={process.env.REACT_APP_CHOCOVEND_API_URL + item.image}
+            src={CHOCOVEND_API_URL + item.image}
             width="100"
             height="100"
           />
