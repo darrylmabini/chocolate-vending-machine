@@ -23,8 +23,8 @@ yarn start:all
 
 ## Docs
 
-- [API](packages/api)
-- [Client](packages/api)
+- [API](packages/api/README.md)
+- [Client](packages/api/README.md)
 
 ## Demo
 
