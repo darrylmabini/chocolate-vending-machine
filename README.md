@@ -21,6 +21,12 @@ Open your terminal and start the app. You might need to reload the page if the A
 yarn start:all
 ```
 
+Test all packages
+
+```bash
+yarn test:all
+```
+
 ## Docs
 
 - [API](packages/api/README.md)
