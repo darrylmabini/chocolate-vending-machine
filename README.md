@@ -9,6 +9,12 @@ Port `3000` and `4000` availability.
 
 ## Getting Started
 
+Install dependencies
+
+```bash
+yarn install
+```
+
 Open your terminal and start the app. You might need to reload the page if the API runs after the client.
 
 ```bash
