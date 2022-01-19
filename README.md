@@ -24,7 +24,7 @@ yarn start:all
 ## Docs
 
 - [API](packages/api/README.md)
-- [Client](packages/api/README.md)
+- [Client](packages/vending-machine/README.md)
 
 ## Demo
 
